@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:src="@drawable/glucksteinlogo11"
+        ></ImageView>
+
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#212A53"
+        android:text="About Us"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:onClick="goTo"/>
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:onClick="goTo"
+        android:text="Locations"
+        android:textColor="#212A53"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+    <Button
+        android:id="@+id/team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#212A53"
+        android:text="Team"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:onClick="goTo"/>
+    <Button
+        android:id="@+id/podcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#212A53"
+        android:text="Podcast"
+        android:bottomRightRadius="10dp"
+        android:bottomLeftRadius="10dp"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:onClick="goTo"/>
+
+    <Button
+        android:id="@+id/expertise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:onClick="goTo"
+        android:text="Expertise"
+        android:textColor="#212A53"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+    <Button
+        android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:onClick="goTo"
+        android:text="News &amp; Events"
+        android:textColor="#212A53"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:text="Resource Guides"
+        ></TextView>
+
+    <Button
+        android:id="@+id/resource1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Children"
+        android:textColor="#212A53"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:onClick="goTo"/>
+
+    <Button
+        android:id="@+id/resource2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Manage Your Recovery"
+        android:textColor="#212A53"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:onClick="goTo"/>
+
+    <Button
+        android:id="@+id/resource3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:bottomLeftRadius="10dp"
+        android:bottomRightRadius="10dp"
+        android:text="Neuro Booklet 2018"
+        android:textColor="#212A53"
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp"
+        android:onClick="goTo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:text="WHY GLUCKSTEIN?"
+        android:textColor="#212A53"
+        android:textSize="30dp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="8dp"
+        android:text="    Our team of personal injury lawyers serves clients in Toronto, Ottawa, Niagara, and across Ontario and are here to work with you. Our goal is to help you recover from your injury without the worry of what’s to come and to get you the compensation you deserve. At Gluckstein Lawyers, you can count on us to be your advocates, and you will receive ongoing support, compassion, and, most of all, results. We are on your side during these devastating times, whether you were in a car accident, suffered a brain injury, had a slip-and-fall, or experienced a poor outcome following medical care. Let our personal injury lawyers work with the insurance companies so you don’t have to go through the frustration. While our trusted expertise gets you the legal and medical results you need, we’re also here to just listen."></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="8dp"
+        android:text="    Gluckstein accommodates you, from conducting our meetings in your preferred language to keeping you up to date on all of our progress. Our team welcomes residents from Ontario’s many cities and boroughs. We see our clients like family, and there’s nothing we wouldn’t do for them! So, get on the path to recovery today by calling or emailing Gluckstein’s personal injury lawyers for a free consultation."
+        ></TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+        <ImageButton
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@drawable/twitter"
+            android:onClick="goTo"/>
+        <ImageButton
+            android:id="@+id/instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@drawable/instagram"
+            android:onClick="goTo"/>
+        <ImageButton
+            android:id="@+id/linkedin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@drawable/linkedin"
+            android:onClick="goTo"/>
+        <ImageButton
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@drawable/facebook"
+            android:onClick="goTo"/>
+        <ImageButton
+            android:id="@+id/youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:src="@drawable/youtube"
+            android:onClick="goTo"/>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

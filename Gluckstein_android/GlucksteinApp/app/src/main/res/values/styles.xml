@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="LocationTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/lightBlue</item> <!--Background colour of text header-->
+        <item name="colorPrimaryDark">@color/darkerBlue</item> <!--Very top of screen-->
+        <item name="colorAccent">@color/darkerBlue</item>
+    </style>
+
+</resources>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rowCount="20"
+        app:columnCount="5">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_row="0"
+            app:layout_column="0"
+            app:layout_columnWeight="1">
+            <ImageView
+                android:id="@+id/gluckstein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gluckstein"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                app:layout_row="0"
+                app:layout_column="0"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_columnWeight="1"
+                android:text="About Us"
+                android:textSize="40sp"
+                android:textColor="@color/white"
+                android:layout_alignBottom="@+id/gluckstein" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_margin="10dp"
+            android:fontFamily="cursive"
+            android:text="“move forward with dignity, respect and  trusted experience.”"
+            android:textSize="40sp"
+            app:layout_row="1"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            android:text="At Gluckstein Lawyers, our clients come first. When you’ve been hurt in an accident, looking ahead can be difficult. It is important to find professionals to stand by you, uplift you, and guide you through each and every obstacle ahead. Gluckstein offers the gentle touch and compassion your family needs when faced with life-altering injuries."
+            android:layout_margin="10dp"
+            android:textColor="@color/darkerBlue"/>
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            android:text="Since 1962, we have helped clients move forward with dignity, respect and trusted experience. Celebrated as pioneers in our field, Gluckstein Lawyers is an award-winning industry leader in neuro-trauma (brain injuries), spinal cord injuries and serious orthopaedic injuries."
+            android:layout_margin="10dp"
+            android:textColor="@color/darkGray"/>
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_columnWeight="1"
+            app:layout_row="4"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            android:text="Gluckstein is dedicated to supporting and empowering non-profit organizations and causes within our community, at times pioneered by our former clients. Giving back is incredibly important to us– for this reason, we regularly sponsor annual conferences, symposia and social events for associations and foundations connected with the medical and disabled community."
+            android:layout_margin="10dp"
+            android:textColor="@color/darkerBlue"/>
+
+        <TextView
+            android:layout_width="0dp"
+            app:layout_columnWeight="1"
+            app:layout_row="5"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            android:text="With a medical specialist on staff, Gluckstein stands with our clients beyond their settlement, by helping them acclimate to their new circumstances."
+            android:layout_margin="10dp"
+            android:textColor="@color/darkGray"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            app:layout_row="6"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            android:background="#E8E8EC"
+            android:layout_margin="10dp" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Gluckstein Family"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gluckstein Lawyers was originally founded by Bernard Gluckstein, one of Canada’s most prominent Personal Injury lawyers for over five decades. His success is attributed to the honest reputation of his law firm and his commitment to humanitarian efforts. He generously volunteers his time with Personal Injury victims and people with disabilities."
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Today, Bernard’s son Charles Gluckstein is leading the firm in innovation and thought leadership. An award-winning lawyer himself, Charles is known for his active support within the medical and disability communities and his innovative mindset for providing better and faster resolution to all Gluckstein client cases, without sacrificing even an ounce of quality."
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            app:layout_row="7"
+            app:layout_column="0"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clientportal"
+                android:scaleType="fitCenter"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Our Client Portal"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Our clients are able to log in to our Gluckstein Client Portal, where they can access updates and notes related to their case."
+                android:gravity="center"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            app:layout_row="8"
+            app:layout_column="0"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/languages"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Languages"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We service you in your language."
+                android:gravity="center"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            app:layout_row="9"
+            app:layout_column="0"
+            app:layout_columnWeight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/locations"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Locations"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We advocate for clients living in Ontario."
+                android:gravity="center"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Testimonials"
+                android:textColor="@color/darkerBlue"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="cursive"
+                android:text="“Gluckstein Lawyers offered my family their support, guidance, love, and patience. Through the efforts of [the Gluckstein team], Benjamin was able to come home and thrive in his own home environment while undergoing intensive therapy.” - Anita"
+                android:textSize="25sp"
+                app:layout_row="1"
+                app:layout_column="0"
+                app:layout_columnSpan="2"
+                app:layout_columnWeight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="cursive"
+                android:text="“The professional help we got from Charles Gluckstein and Jane Lou has brought us out of hopelessness and devastation [following my wife’s motor vehicle accident]. This has given us hope going forward, and let us feel financially secure for my wife’s long journey for future recovery.” - Ning Bo"
+                android:textSize="25sp"
+                app:layout_row="1"
+                app:layout_column="0"
+                app:layout_columnSpan="2"
+                app:layout_columnWeight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:fontFamily="cursive"
+                android:text="“During the last 4 years that my case was under process, I found you one of the best lawyer, honest, organize, very detail oriented, a positive person, high interpersonal and analytical skills and very smart in your profession to follow the problems of your client excellently.” - Kambiz"
+                android:textSize="25sp"
+                app:layout_row="1"
+                app:layout_column="0"
+                app:layout_columnSpan="2"
+                app:layout_columnWeight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+        <ExpandableListView
+            android:id="@+id/expandable"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_row="10"
+            app:layout_column="0"
+            app:layout_columnWeight="1"/>
+
+    </androidx.gridlayout.widget.GridLayout>
+</ScrollView>

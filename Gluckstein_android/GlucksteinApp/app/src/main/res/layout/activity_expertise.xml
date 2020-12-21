@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBEDF1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Expertise">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:background="@drawable/law_book"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:singleLine="false"
+        android:text="Expertise"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/expertiseGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@color/lightGray"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:numColumns="2"
+        android:paddingTop="10dp"
+        android:stretchMode="columnWidth" />
+
+</LinearLayout>
